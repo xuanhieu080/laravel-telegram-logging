@@ -1,11 +1,11 @@
 <?php
 
-namespace RLaurindo\TelegramLogger\Services;
+namespace XuanHieu\TelegramLogger\Services;
 
 /**
  * Class TelegramService
  *
- * @package RLaurindo\TelegramLogger
+ * @package XuanHieu\TelegramLogger
  */
 class TelegramService
 {

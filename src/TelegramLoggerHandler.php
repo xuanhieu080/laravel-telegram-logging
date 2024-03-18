@@ -1,15 +1,15 @@
 <?php
 
-namespace RLaurindo\TelegramLogger;
+namespace XuanHieu\TelegramLogger;
 
 use Monolog\Handler\AbstractProcessingHandler;
 use Monolog\Logger;
-use RLaurindo\TelegramLogger\Services\TelegramService;
+use XuanHieu\TelegramLogger\Services\TelegramService;
 
 /**
  * Class TelegramHandler
  *
- * @package Rlaurindo\TelegramLogger
+ * @package XuanHieu\TelegramLogger
  */
 class TelegramLoggerHandler extends AbstractProcessingHandler
 {

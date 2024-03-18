@@ -2,22 +2,22 @@
 
 Send Laravel logs to a Telegram chat via Telegram Bot.
 
-[![Total Downloads](https://poser.pugx.org/rafaellaurindo/laravel-telegram-logging/downloads)](//packagist.org/packages/rafaellaurindo/laravel-telegram-logging)
+[![Total Downloads](https://poser.pugx.org/xuanhieu080/laravel-telegram-logging/downloads)](//packagist.org/packages/xuanhieu080/laravel-telegram-logging)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LUAC5W7GF2BVW&source=url)
-[![license](https://img.shields.io/github/license/rafaellaurindo/laravel-telegram-logging.svg)](https://github.com/rafaellaurindo/laravel-telegram-logging/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/xuanhieu080/laravel-telegram-logging.svg)](https://github.com/xuanhieu080/laravel-telegram-logging/blob/master/LICENSE)
 
 ## Installation
 
 To install the package you can use [Composer](https://getcomposer.org/).
 
 ```bash
-composer require rafaellaurindo/laravel-telegram-logging
+composer require xuanhieu080/laravel-telegram-logging
 ```
 
 Publish the package configuration file using the following artisan command:
 
 ```bash
-php artisan vendor:publish --provider "RLaurindo\TelegramLogger\TelegramLoggerServiceProvider"
+php artisan vendor:publish --provider "XuanHieu\TelegramLogger\TelegramLoggerServiceProvider"
 ```
 
 To send messages to your Telegram Chat, you first need a Telegram Bot. If you don't have one, see in this [Telegram Instructions](TELEGRAM_BOT_INSTRUCTIONS.md) how to create one.
@@ -38,7 +38,7 @@ Add the new Log Channel in **config/logging.php**:
 ```php
 'telegram' => [
     'driver' => 'custom',
-    'via'    => RLaurindo\TelegramLogger\TelegramLogger::class,
+    'via'    => XuanHieu\TelegramLogger\TelegramLogger::class,
     'level'  => 'debug',
 ]
 ```
@@ -100,4 +100,4 @@ Donate with Paypal:
 
 ## License
 
-[MIT](https://github.com/rafaellaurindo/laravel-telegram-logging/blob/master/LICENSE)
+[MIT](https://github.com/xuanhieu080/laravel-telegram-logging/blob/master/LICENSE)

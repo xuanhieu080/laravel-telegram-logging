@@ -1,13 +1,13 @@
 <?php
 
-namespace RLaurindo\TelegramLogger;
+namespace XuanHieu\TelegramLogger;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class TelegramLoggerServiceProvider
  *
- * @package RLaurindo\TelegramLogger
+ * @package XuanHieu\TelegramLogger
  */
 class TelegramLoggerServiceProvider extends ServiceProvider
 {

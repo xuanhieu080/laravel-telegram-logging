@@ -12,20 +12,20 @@
     {
       "name": "Rafael Laurindo",
       "email": "rafaelfilholm@gmail.com",
-      "homepage": "https://rafaellaurindo.com.br"
+      "homepage": "https://xuanhieu080.com.br"
     }
   ],
   "minimum-stability": "dev",
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "RLaurindo\\TelegramLogger\\": "src/"
+      "XuanHieu\\TelegramLogger\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "RLaurindo\\TelegramLogger\\TelegramLoggerServiceProvider"
+        "XuanHieu\\TelegramLogger\\TelegramLoggerServiceProvider"
       ]
     }
   }
